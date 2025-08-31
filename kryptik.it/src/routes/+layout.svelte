@@ -18,7 +18,7 @@
 		</nav>
 	</header>
 
-	<main class="pt-24">
+	<main class="pt-32">
 		<slot />
 	</main>
 
