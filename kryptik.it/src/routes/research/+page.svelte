@@ -8,4 +8,7 @@
 		<li>Decentralized Systems</li>
 		<li>Art & Technology</li>
 	</ul>
+	<p class="text-lg mt-4">
+		Follow our work on <a href="https://github.com/kryptik-research" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">GitHub</a>.
+	</p>
 </div>
