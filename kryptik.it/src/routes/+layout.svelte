@@ -23,6 +23,6 @@
 	</main>
 
 	<footer class="p-4 mt-20 text-center text-gray-500">
-		<p>&copy; 2025 Kryptik Research Group</p>
+		<p>&copy; 2026 Kryptik Research Group &mdash; <a href="https://sxs.io" class="underline hover:text-gray-700" target="_blank" rel="noopener noreferrer">sxs.io</a></p>
 	</footer>
 </div>
