@@ -1,7 +1,8 @@
+<script lang="ts">
+	import { about } from '$lib/content';
+</script>
+
 <div class="container mx-auto px-4">
-	<h1 class="text-4xl font-bold mb-4">About Kryptik</h1>
-	<p class="text-lg">
-		Kryptik Research Group is a collective of technologists, scientists, and artists dedicated to
-		exploring the frontiers of decentralized technology and its impact on society.
-	</p>
+	<h1 class="text-4xl font-bold mb-4">{about.title}</h1>
+	<p class="text-lg">{about.body}</p>
 </div>
