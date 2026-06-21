@@ -3,25 +3,41 @@
  */
 
 export const hero = {
-	headline: 'Advancing Decentralized Futures',
+	eyebrow: 'Kryptik Research Group',
+	headline: 'Secure systems, agent tooling, and strange useful software.',
 	subheadline:
-		'Kryptik Research Group is a collective of technologists, scientists, and artists dedicated to exploring the frontiers of decentralized technology and its impact on society.'
+		'Kryptik is a research technology organization exploring cryptographic identity, decentralized infrastructure, AI-assisted development, and creative systems that can be inspected, forked, and improved.',
+	actions: [
+		{ label: 'Explore projects', href: '/projects' },
+		{ label: 'Read research areas', href: '/research' }
+	]
 } as const;
+
+export const quickFacts = [
+	{ label: 'Public code', value: '12 GitHub repositories' },
+	{ label: 'Primary surface', value: 'kryptik.it' },
+	{ label: 'Working mode', value: 'open research and practical tools' }
+] as const;
 
 export const pillars = [
 	{
-		title: 'Cryptography',
+		title: 'Trustworthy Systems',
 		description:
-			'We are developing novel cryptographic methods for secure and private data exchange in decentralized networks.'
+			'Identity, signatures, permissions, and auditable decision records for software that needs clear authority boundaries.'
 	},
 	{
-		title: 'Decentralized Systems',
+		title: 'Agent Infrastructure',
 		description:
-			'We are building and analyzing decentralized systems to understand their properties and potential applications.'
+			'Model Context Protocol tools, skill marketplaces, Discord agents, and evaluation patterns for AI systems people can actually operate.'
 	},
 	{
-		title: 'Art & Technology',
+		title: 'Networked Worlds',
 		description:
-			'We are exploring the intersection of art and technology to create new forms of expression and communication.'
+			'Federated text worlds, literary interfaces, etymology graphs, and other projects where software becomes a readable place.'
 	}
 ] as const;
+
+export const currentWork = {
+	title: 'Current Direction',
+	body: 'The public work clusters around three questions: how authority moves through software, how AI tools can remain understandable under real use, and how networked systems can support authored, intimate experiences instead of only scale.'
+} as const;

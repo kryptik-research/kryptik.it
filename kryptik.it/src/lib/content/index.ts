@@ -3,9 +3,9 @@
  * Import from '$lib/content' to access all site content.
  */
 
-export { site, navigation } from './site';
-export { hero, pillars } from './home';
-export { projectIntro, projects } from './projects';
+export { footerLinks, navigation, site } from './site';
+export { currentWork, hero, pillars, quickFacts } from './home';
+export { featuredProjects, projectIntro, projects } from './projects';
 export { about } from './about';
 export { research } from './research';
 export { contact } from './contact';
